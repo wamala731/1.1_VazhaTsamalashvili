@@ -14,7 +14,7 @@
             sbyte mySbyte = 8;
             float myFloat = 3.14f;
             double myDouble = 3.1415926535;
-            decimal myDecimal = 147189471;
+            decimal myDecimal = 147189471M;
             char myChar = 'A';
             string myString = "Task2";
             bool myBool = true;
