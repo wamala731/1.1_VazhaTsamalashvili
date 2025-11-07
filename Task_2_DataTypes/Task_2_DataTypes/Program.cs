@@ -1,4 +1,4 @@
-﻿namespace Task2_VazhaTsamalashvili
+﻿namespace Task_2_DataTypes
 {
     internal class Program
     {
@@ -18,7 +18,7 @@
             char myChar = 'A';
             string myString = "Task2";
             bool myBool = true;
-            
+
             Console.WriteLine(myShort);
             Console.WriteLine(myInt);
             Console.WriteLine(myLong);
