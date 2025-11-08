@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3_VazhaTsamalashvili", "Task3_VazhaTsamalashvili\Task3_VazhaTsamalashvili.csproj", "{91C3ABD4-796B-4DF1-B199-D92CEAEA70DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_3_DataType_Conversion", "Task_3_DataType_Conversion\Task_3_DataType_Conversion.csproj", "{E4041C71-0FEB-4A80-A684-D87BFC1EBFF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91C3ABD4-796B-4DF1-B199-D92CEAEA70DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91C3ABD4-796B-4DF1-B199-D92CEAEA70DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91C3ABD4-796B-4DF1-B199-D92CEAEA70DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91C3ABD4-796B-4DF1-B199-D92CEAEA70DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4041C71-0FEB-4A80-A684-D87BFC1EBFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4041C71-0FEB-4A80-A684-D87BFC1EBFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4041C71-0FEB-4A80-A684-D87BFC1EBFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4041C71-0FEB-4A80-A684-D87BFC1EBFF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2BA933A3-09FE-4208-A989-4901AAE00450}
+		SolutionGuid = {73D68F8A-A572-487E-9873-ED6CB4323F7B}
 	EndGlobalSection
 EndGlobal

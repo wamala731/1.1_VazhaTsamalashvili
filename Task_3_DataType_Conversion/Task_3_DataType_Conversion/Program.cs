@@ -1,4 +1,4 @@
-﻿namespace Task3_VazhaTsamalashvili
+﻿namespace Task_3_DataType_Conversion
 {
     internal class Program
     {
@@ -20,7 +20,7 @@
             int myInt3 = (int)myLong2; //Difference is in "(int)". 
             //Task3
             double myDouble3 = 3.14;
-            int myInt4 = (int)myDouble3; 
+            int myInt4 = (int)myDouble3;
             Console.WriteLine(myInt4.GetType() + " " + myInt4);
             Console.WriteLine();
             //Task4
@@ -53,7 +53,7 @@
             Console.WriteLine();
             //Task8
             Console.WriteLine("Enter Number: ");
-       
+
             int result3;
             bool UserEnteredWord = false;
             while (UserEnteredWord == false)
