@@ -1,4 +1,4 @@
-﻿namespace Task4_VazhaTsamalashvili
+﻿namespace Task_4_Operators
 {
     internal class Program
     {
@@ -39,11 +39,11 @@
             Console.WriteLine();
             #endregion
             #region Task 5 .result after multiple operations
-            int myInt4 = 12;          
-            myInt4 += 432;           
+            int myInt4 = 12;
+            myInt4 += 432;
             myInt4 -= 21;
             myInt4 /= 5;
-            myInt4 *= 16;           
+            myInt4 *= 16;
             Console.WriteLine(myInt4);
             Console.WriteLine();
             #endregion
@@ -78,7 +78,7 @@
             //Both should be True
             bool myBool1 = true;
             bool myBool2 = true;
-            if(myBool1 && myBool2)
+            if (myBool1 && myBool2)
             {
                 Console.WriteLine("Both are true");
             }
@@ -101,12 +101,15 @@
             #region Task 9 Checking users input
             string UserInput = Console.ReadLine();
             int UserInputinInt = int.Parse(UserInput);
-            if((UserInputinInt > 0) && (UserInputinInt < 10)){
+            if ((UserInputinInt > 0) && (UserInputinInt < 10))
+            {
                 Console.WriteLine("This number is positive and lower than 10");
-            }else {
-                Console.WriteLine("This number is not positive or is greater than 10");            
             }
-            Console.WriteLine() ;
+            else
+            {
+                Console.WriteLine("This number is not positive or is greater than 10");
+            }
+            Console.WriteLine();
             #endregion
             #region Task 10 Using Logical and Arithmetical operations together
             string UserInput2 = Console.ReadLine();
