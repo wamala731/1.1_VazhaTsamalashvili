@@ -5,7 +5,7 @@ namespace Practise9_Loops
     internal class Program
     {
         /// <summary>
-        /// Score: 7/10
+        /// Score: 15/20
         /// Reasons: It works it is fine but history does not work
         /// here are some issues about optimisation and code contains complex logics and solutions for goal
         /// </summary>
