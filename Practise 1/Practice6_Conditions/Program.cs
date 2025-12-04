@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        /// <summary>
+        /// Score: 10/10
+        /// GREAT WORK!
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.Write("Input number: ");

@@ -1,9 +1,15 @@
-﻿using System.ComponentModel.Design;
+﻿using System.ComponentModel.Design; // you dont need this :D
 
 namespace Practice7_Conditions
 {
     internal class Program
     {
+        /// <summary>
+        /// Score: 9/10
+        /// Reason: It works but you have complexity in that code 
+        /// check comments maybe you did not know default case in switch-case
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             if (int.TryParse(Console.ReadLine(), out int userinput) && userinput <= 12)
@@ -47,9 +53,14 @@ namespace Practice7_Conditions
                     case 12:
                         Console.WriteLine("December");
                         break;
+                    // you have to use default case and it will work for unknown cases 
+                    default: 
+                        Console.WriteLine($"Month { userinput } doesn't exist");
+                        break;
                 }
 
             }
+            // noneed code below!
             else if (userinput > 12)
             {
                 Console.WriteLine("Month {" + userinput + "} doesn't exist");

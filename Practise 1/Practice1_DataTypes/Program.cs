@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        /// <summary>
+        /// Score: 10/10*
+        /// GREAT WORK
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.Write("Enter first number: ");
@@ -12,8 +17,6 @@
             Console.WriteLine("Result: " + result);
             bool resultIsNumEven = (int)result % 2 == 0 ? true : false;
             Console.WriteLine("Number is even: " + resultIsNumEven);
-           
-            
 
         }
     }

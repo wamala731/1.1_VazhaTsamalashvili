@@ -4,16 +4,74 @@ namespace Practise9_Loops
 {
     internal class Program
     {
+        /// <summary>
+        /// Score: 7/10
+        /// Reasons: It works it is fine but history does not work
+        /// here are some issues about optimisation and code contains complex logics and solutions for goal
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-
             bool work = true;
             while (work)
             {
                 Console.Write("Enter Number X: ");
+
+                // Logic solution here: if first number is valid then try to get second value
+                // if it is not correct then break loop 
+
+
+                // check region for solutions
+                #region Solution to get values
+
+                // Way N1
+                string userInputstr = Console.ReadLine();
+                if (!int.TryParse(userInputstr, out int X1)) // if value is not valid for that you have to use !True = False(not true)
+                {
+                    Console.WriteLine("Inaccessible operation: " + userInputstr + "is not a number");
+                    break;
+                }
+                
+
+                Console.Write("Enter Number Y: ");
+                string userInputstr2 = Console.ReadLine();
+                if (!int.TryParse(userInputstr2, out int Y1)) // same logic here
+                {
+                    Console.WriteLine("Inaccessible operation: " + userInputstr2 + " is not a number");
+                    break;
+                }
+
+                // Way N2
+
+                string userInputstr1 = Console.ReadLine();
+                if (int.TryParse(userInputstr1, out int X2))
+                {
+                    Console.Write("Enter Number Y: ");
+                    string userInputstr3 = Console.ReadLine();
+                    if (!int.TryParse(userInputstr3, out int Y2))
+                    {
+                        // Menu for operations
+                    }
+                    else
+                    {
+
+                        Console.WriteLine("Inaccessible operation: " + userInputstr3 + " is not a number");
+                        break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Inaccessible operation: " + userInputstr1 + "is not a number");
+                    break;
+                }
+
+                // there are different ways for solution but you have to choose optimal for that
+                #endregion
+
                 string userInput1 = Console.ReadLine();
                 if (int.TryParse(userInput1, out int X))
                 {
+                    // what if not? you have to write code here not out of if-else
                 }
                 else
                 {
@@ -24,6 +82,7 @@ namespace Practise9_Loops
                 string userInput2 = Console.ReadLine();
                 if (int.TryParse(userInput2, out int Y))
                 {
+                    // what if not? you have to write code here not out of if-else
                 }
                 else
                 {
@@ -41,7 +100,8 @@ namespace Practise9_Loops
                     if (int.TryParse(Console.ReadLine(), out int Option) && (Option > 0 && Option < 5))
                     {
                         Console.WriteLine("Option: " + Option);
-                        //აქ Option კი მაქვს უკვე მარა if გარეთ არ მიჩანს და როგორ გავაკეთო ისე რო public გახდეს?
+                        // აქ Option კი მაქვს უკვე მარა if გარეთ არ მიჩანს და როგორ გავაკეთო ისე რო public გახდეს?
+                        // გარეთ აღწერე ინიციალიზაციის გარეშე ან ველიუ მიანიჭე 0 მას შემდეგ რაც გამოთვლი scope-შიც გექნება და გარეთაც გაგყვება ცვლადი
                         userOption = Option;
                         break;
                     }
@@ -54,6 +114,8 @@ namespace Practise9_Loops
                 Console.Write("Result: ");
                 switch (userOption)
                 {
+                    // declare string type history variable out of the scope
+                    // and modify or save history here historyVariable += what is written in Console.WriteLine();
                     case (int)MathematicalOperations.Add:
                         Console.WriteLine(X + " + " + Y + " = " + (Y + X));
                         break;

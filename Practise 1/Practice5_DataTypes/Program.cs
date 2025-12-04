@@ -2,6 +2,10 @@
 {
     internal class Program
     {
+        /// <summary>
+        /// Score: 10/10
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.Write("Enter double number: ");
