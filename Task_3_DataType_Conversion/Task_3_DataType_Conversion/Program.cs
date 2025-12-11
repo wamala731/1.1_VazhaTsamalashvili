@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        /// <summary>
+        /// Score: 0/100
+        /// Reason: THANKS GOD FOR AI
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //Task 1
