@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        /// <summary>
+        /// Score: 100/100
+        /// WARNINGS: DOUBT ABOUT AI
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             #region Task1 and Task4 granting operators
