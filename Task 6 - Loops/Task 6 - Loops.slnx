@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Practice 1/Practice 1.csproj" />
+  <Project Path="Practice 2/Practice 2.csproj" />
+  <Project Path="Practice 3/Practice 3.csproj" Id="fdfc9a30-c158-44fc-9dc1-a59cb6b80d68" />
+  <Project Path="Practice 4/Practice 4.csproj" Id="d8fba5c0-01d2-473f-a1ec-975b7019a905" />
+  <Project Path="Practice 5/Practice 5.csproj" Id="88beeb57-7cd9-46f6-803a-63a07c372750" />
+</Solution>
