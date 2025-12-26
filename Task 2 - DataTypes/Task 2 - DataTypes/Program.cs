@@ -1,4 +1,4 @@
-﻿namespace Task_2_DataTypes
+﻿namespace Task_2___DataTypes
 {
     internal class Program
     {
