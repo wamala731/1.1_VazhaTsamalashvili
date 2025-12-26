@@ -18,7 +18,7 @@ namespace Practice_1
             {
                 Console.Write("Enter valid number: ");
             }
-            if (Num1 <= Num2)
+            if (Num1 < Num2)
             {
                 Console.WriteLine($"Numbers from {Num1} to {Num2}: ");
                 for (int i = Num1; i <= Num2 ; i++)
