@@ -1,12 +1,7 @@
-﻿namespace Task_3_DataType_Conversion
+﻿namespace Task_3____DataType_Conversion
 {
     internal class Program
     {
-        /// <summary>
-        /// Score: 0/100
-        /// Reason: THANKS GOD FOR AI
-        /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             //Task 1
@@ -101,8 +96,6 @@
 
             long FinalLong3 = long.Parse(FinalString); // Parsing string to numeric value
             Console.WriteLine(FinalLong3);
-
-
         }
     }
 }
