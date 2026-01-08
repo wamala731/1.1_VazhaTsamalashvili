@@ -4,17 +4,6 @@
     {
         static void Main(string[] args)
         {
-            /*
-             * Task
-Write a program that:
-Accepts a list of numbers from the user line by line.
-Prints the list sorted in descending order.
-Prints the multiplication of the smallest and biggest number.
-Acceptance Criteria
-Declare a List<double> and allow user input.
-If the user types exit, print the sorted list and finish the program. 
-
-             */
             List <double> numbers = new List<double>();
             Console.WriteLine("Input numbers: ");
             while (true) {
