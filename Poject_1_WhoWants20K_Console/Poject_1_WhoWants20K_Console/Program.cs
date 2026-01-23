@@ -240,15 +240,15 @@ namespace Poject_1_WhoWants20K_Console
                 "Brilliant answer!",
                 "You're acing this!"
             };
-        static string[] encouragements = {
-                "Don't worry, you'll get the next one!",
-                "Keep trying, you're doing great!",
-                "Stay focused, you can do this!",
-                "Keep your head up, the next question is yours!",
-                "You're learning with every question!",
-                "Stay positive, success is just around the corner!",
-                "Keep pushing, you're getting closer!",
-                "Every mistake is a step towards success!"
+        static string[] wrongAnswers = {
+                "Oops, that's not correct.",
+                "Sorry, that's the wrong answer.",
+                "Unfortunately, that's incorrect.",
+                "That's not the right choice.",
+                "Wrong answer, better luck next time.",
+                "That's not it, try again next time.",
+                "Incorrect, but don't give up!",
+                "That's not correct, keep trying!"
             };
 
 
@@ -401,7 +401,8 @@ namespace Poject_1_WhoWants20K_Console
                         else
                         {
                             Console.WriteLine(errorMessage);
-                            Console.WriteLine(encouragements[random.Next(encouragements.Count())]);
+                            Console.WriteLine(wrongAnswers[random.Next(wrongAnswers.Count())]);
+                            Console.WriteLine("You have lost!");
                             return;
 
                         }
