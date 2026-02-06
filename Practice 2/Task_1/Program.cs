@@ -41,6 +41,7 @@
                     {
                         Console.WriteLine($"{toRemove} not found in the list.");
                         Console.WriteLine("Try again.");
+                        break;
                     }
                 }
             }
