@@ -1,7 +1,8 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace Task_5
+﻿namespace Task_5
 {
+    /// <summary>
+    /// Score: 10/10
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)

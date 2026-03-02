@@ -1,5 +1,9 @@
 ﻿namespace Task_1
 {
+    /// <summary>
+    /// Score: 8/10 
+    /// ნაწილობრივ შესრულებულია ინდექსით წაშლა აკლია, ასევე while ციკლი შეიძლება გაუმჯობესდეს, რომ არ იკითხოს ზედმეტად და არ იწეროს ზედმეტად კონსოლში.
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
@@ -13,7 +17,7 @@
                 input = Console.ReadLine();
                 animals.Add(input);
             }
-            while (true)
+            while (true) // while (animals.Count > 0) will be better or while input != "exit"
             {
                 Console.Write("Here is the list of animals: ");
                 foreach (string animal in animals)
@@ -21,7 +25,7 @@
                     Console.Write(animal + " ");
                 }
                 Console.WriteLine();
-                Console.WriteLine("Type in (exit) if you want to stop removing enimals.");
+                Console.WriteLine("Type in (exit) if you want to stop removing enimals."); // while input != "exit" will be better
                 Console.WriteLine("Which animal do you want to remove? ");
 
                 string toRemove = Console.ReadLine();

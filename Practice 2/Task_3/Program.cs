@@ -1,5 +1,9 @@
 ﻿namespace Task_3
 {
+    /// <summary>
+    /// Score: 10/10
+    /// რაები აკეთე if-else-ში არ ვიცი მაგრამ დააკვირდი
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
@@ -25,7 +29,7 @@
             string usersWord = Console.ReadLine();
             for (int i = 0; i < words.Count; i++)
             {
-                if ((i + 1) % 2 == 0)
+                if ((i + 1) % 2 == 0) // a? just if i % 2 == 0 (კენტი რიგითი ნომერია)... else (ლუწი რიგითია)...
                 {
                     string currentWord = usersWord + words[i];
                     words[i] = currentWord;
