@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace Practice_3
 {
@@ -6,14 +7,38 @@ namespace Practice_3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Input your name: ");
+            string name = Console.ReadLine()!;
+            Console.WriteLine("Input your Surname: ");
+            string lastName = Console.ReadLine()!;
+            Console.WriteLine("Input your profession: ");
+            string profession = Console.ReadLine()!;
+            Console.WriteLine("Input your address: ");
+            string address = Console.ReadLine()!;
+            Console.WriteLine("Input your phone: ");
+            string phoneNumber = Console.ReadLine()!;
+            Console.WriteLine("Input your mail: ");
+            string email = Console.ReadLine()!;
+            Console.WriteLine("Input your github url: ");
+            string githubUrl = Console.ReadLine()!;
+            
             if (!Directory.Exists(@"..\..\..\MyDirInfo"))
             {
                 Directory.CreateDirectory(@"..\..\..\MyDirInfo");
             }
-           
-            string info = "Vazha Tsamalashvili \n Proffesion is Student \n Contact: \n Levan Kbilashvili Highway N16\n 557-56-48-12 \n wamala731@gmail.com \n https://github.com/wamala731/1.1_VazhaTsamalashvili.git";
-            File.WriteAllText(@"..\..\..\MyDirInfo\Vazha_Tsamalashvil_04.03.2026.txt", info);
 
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"My name is {name} {lastName}");
+            sb.AppendLine($"Profession:  {profession}");
+            sb.AppendLine("Contact information:");
+            sb.AppendLine($"\tAddress: {address}");
+            sb.AppendLine($"\tPhone number: {phoneNumber}");
+            sb.AppendLine($"\tMail: {email}");
+            sb.AppendLine($"\tGitHub: {githubUrl}");
+
+            string fileName = $@"{name}_{lastName}_{DateTime.Today:dd.MM.yy}.txt";
+            string filePath = Path.Combine(@"..\..\..\MyDirInfo", fileName);
+            File.WriteAllLines(filePath, sb.ToString().Split(Environment.NewLine));
         }
     }
 }
