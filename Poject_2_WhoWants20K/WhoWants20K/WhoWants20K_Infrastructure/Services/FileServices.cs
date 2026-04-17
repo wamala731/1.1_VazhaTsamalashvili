@@ -2,22 +2,24 @@
 using System.Collections.Generic;
 using System.Text;
 using WhoWants20K_Application;
+using System.IO;
 
 namespace WhoWants20K_Infrastructure.Services
 {
     internal class FileServices : IFileServices
     {
         
-        public string[] ReadFile(string filePath)
+        public List<string> ReadFile(string filePath)
         {
-            string[] data = null;
+            List<string> data = new List<string>();
             int i = 0;
+
             using (StreamReader sr = new StreamReader(filePath))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    data[i] += line;
+                    data.Add(line);
                     i++;
                 }
             }

@@ -4,6 +4,7 @@ namespace WhoWants20K_Application.IServices
 {
     public interface IQuestionServices : IServices<Question>
     {
-        public void printQuestion();
+        public void printQuestion(Question question);
+        public bool answerQuestion(Question question, int userInput);
     }
 }

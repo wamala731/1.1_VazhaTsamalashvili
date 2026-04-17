@@ -5,17 +5,21 @@ using WhoWants20K_Application.IServices;
 
 namespace WhoWants20K_Infrastructure.Services
 {
-    internal class Services<T> : IServices<T> where T : class
+    public class Services<T> : IServices<T> where T : class
     {
-        public void Create(T entity)
-        {
-            T newEntity = entity;
-        }
-        public void Read(int id)
+        public List<T> GetAll()
         {
             throw new NotImplementedException();
         }
-        public void Update(int id, T entity)
+        public T GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+        public void Create(T entity)
+        {
+            throw new NotImplementedException();
+        }
+        public void Update(T entity)
         {
             throw new NotImplementedException();
         }

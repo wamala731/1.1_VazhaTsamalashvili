@@ -4,6 +4,7 @@ namespace WhoWants20K_Application.IServices
 {
     public interface IAnswerServices : IServices<Answer>
     {
-        public bool isAnswerCorrect();
+        public bool checkAnswer(Answer answer);
+      
     }
 }

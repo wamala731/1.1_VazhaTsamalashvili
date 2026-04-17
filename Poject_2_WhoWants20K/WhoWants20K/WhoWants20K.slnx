@@ -1,8 +1,9 @@
 <Solution>
   <Folder Name="/WhoWants20K_Data/">
-    <File Path="QuestionsAndAnswers" />
+    <File Path="QuestionsAndAnswers.txt" />
   </Folder>
   <Project Path="WhoWants20K_App/WhoWants20K_Application.csproj" Id="88ed3d07-daab-45b3-80c3-3197e77ba8f4" />
+  <Project Path="WhoWants20K_Console/WhoWants20K_Console.csproj" Id="5ac85b92-1b7a-4b63-9fb9-126364fa51b9" />
   <Project Path="WhoWants20K_Domain/WhoWants20K_Domain.csproj" />
   <Project Path="WhoWants20K_Infrastructure/WhoWants20K_Infrastructure.csproj" Id="2c2a9ce0-c402-4bb7-9e67-526323595373" />
 </Solution>

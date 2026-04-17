@@ -6,7 +6,7 @@ namespace WhoWants20K_Application
 {
     public interface IFileServices
     {
-        public string[] ReadFile(string filePath);
+        public List<string> ReadFile(string filePath);
         public void SaveToFile(string filePath, string Content);
     }
 }
