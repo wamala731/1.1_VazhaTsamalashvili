@@ -19,7 +19,7 @@ namespace WhoWants20K_Infrastructure.Services
                 {
                     Console.Write("Enter your name: ");
                     string name = Console.ReadLine();
-                    return new User { Name = name, Balance = 0, AnsweredQuestions = new List<Question>(), ChoosenAnswers = new List<Answer>() , usedHelps = new string};
+                    return new User { Name = name, Balance = 0, AnsweredQuestions = new List<Question>(), ChoosenAnswers = new List<Answer>() , usedHelps = new string[10, 2] };
                 }
                 else
                 {
