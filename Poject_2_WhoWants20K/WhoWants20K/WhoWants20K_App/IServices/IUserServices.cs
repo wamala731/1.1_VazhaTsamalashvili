@@ -9,6 +9,7 @@ namespace WhoWants20K_Application.IServices
     {
         
         public void userAnsweredQuestion(User user, Question question, Answer answer, int Prize);
+        public void userAnsweredWrongAnswer(User user, Question question, Answer answer);
         public void userUsedHelp(User user, string helpType, int helpTime);
         
     }

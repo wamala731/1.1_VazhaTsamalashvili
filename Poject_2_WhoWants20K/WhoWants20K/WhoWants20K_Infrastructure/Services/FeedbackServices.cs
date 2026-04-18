@@ -5,7 +5,7 @@ using WhoWants20K_Application.IServices;
 
 namespace WhoWants20K_Infrastructure.Services
 {
-    internal class FeedbackServices : IFeedbackServices
+    public class FeedbackServices : IFeedbackServices
     {
         public List<string> rewards = new List<string>
          {

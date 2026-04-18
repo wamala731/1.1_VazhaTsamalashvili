@@ -44,14 +44,12 @@ namespace WhoWants20K_Infrastructure.AppData
                     {
                         writer.WriteLine($"Balance: {rewards[i]}");
                     }
-                    else
-                    {
-                        writer.WriteLine("Game Over! Balance: 0");
-                        writer.WriteLine("End of Game: " + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
-                        writer.WriteLine("--------------------------------------------------");
-                        break;
-                    }
+                    
                 }
+                writer.WriteLine("Final Balance: " + rewards[user.AnsweredQuestions.Count - 1]);
+                writer.WriteLine("End of Game: " + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
+
+                writer.WriteLine("--------------------------------------------------");
 
             }
         }

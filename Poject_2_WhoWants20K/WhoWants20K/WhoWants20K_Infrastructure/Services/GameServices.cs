@@ -32,45 +32,70 @@ namespace WhoWants20K_Infrastructure.Services
             ApplicationStaticDataBase dataBase = new ApplicationStaticDataBase();
             HelpServices helpService = new HelpServices();
             List<Question> questions = dataBase.GetData("../../../../WhoWants20K_Data/QuestionsAndAnswers.txt");
-            feedbackService.printIntrodactionMessage();
+
             for (int i = 0; i < 10; i++)
             {
+                if (i != 0)
+                {
+                    Console.Write("Would you like to continue? (yes/no): ");
+                    string userInput = Console.ReadLine().ToLower();
+                    if (userInput == "no")
+                    {
+                        userService.userStoppedGame(user);
+                        break;
+                    }
+                }
                 int current = rnd.Next(questions.Count);
                 feedbackService.printQuestionIntroMessage(i);
                 questionService.printQuestion(questions[current]);
-                string userInputStr = Console.ReadLine();
+
+                
+
                 int userAnswer;
                 int userInputAfterHelp = 0;
-                if (userInputStr.ToLower() == "help")
+                while (true)
                 {
-                    helpService.returnRemainingHelps();
-                    helpService.useHelp(questions[current], out string usedHelp);
-                    userService.userUsedHelp(user, usedHelp, i);
-                    while (int.TryParse(Console.ReadLine(), out userAnswer) == false || userAnswer < 1 || userAnswer > 4)
-                    {
-                        Console.Write("Please enter a valid answer (1-4): ");
-                      
-                    }
-                }
-                if ((int.TryParse(userInputStr, out userAnswer) && userAnswer >= 1 && userAnswer <= 4) || (userAnswer != 0))
-                     
-                    if (questionService.answerQuestion(questions[current], userAnswer) == true)
-                    {
-                        userService.userAnsweredQuestion(user, questions[current], questions[current].Answers[userAnswer - 1], int.Parse(rewards[i].Split(' ')[0]));
-                        feedbackService.printCorrectAnswerMessage(i);
-                        questions.RemoveAt(current);
-                        if (i == 9)
-                        {
-                            feedbackService.printCongratulationsMessage();
-                        }
+                    Console.WriteLine("Enter your answer (1-4) or type 'help':");
+                    string input = Console.ReadLine().ToLower();
 
+                    if (input == "help")
+                    {
+                        helpService.returnRemainingHelps();
+                        helpService.useHelp(questions[current], out string usedHelp);
+                        userService.userUsedHelp(user, usedHelp, i);
+                        continue;
+                    }
+
+                    if (int.TryParse(input, out userAnswer) && userAnswer >= 1 && userAnswer <= 4)
+                    {
+                        break;
+                    }
+
+                    Console.WriteLine("Please enter a valid answer (1-4) or 'help'.");
+                }
+
+
+                if (questionService.answerQuestion(questions[current], userAnswer) == true)
+                {
+                    userService.userAnsweredQuestion(user, questions[current], questions[current].Answers[userAnswer - 1], int.Parse(rewards[i].Split(' ')[0]));
+                    feedbackService.printCorrectAnswerMessage(i);
+                    questions.RemoveAt(current);
+                    if (i != 9)
+                    {
+                        feedbackService.printCorrectAnswerMessage(i);
                     }
                     else
                     {
-                        userService.userAnsweredQuestion(user, questions[current], questions[current].Answers[userAnswer - 1], 0);
-                        feedbackService.printGameOverMessage();
-                        break;
+
+                        feedbackService.printCongratulationsMessage();
                     }
+                }
+                else
+                {
+                    userService.userAnsweredWrongAnswer(user, questions[current], questions[current].Answers[userAnswer - 1]);
+                    feedbackService.printGameOverMessage();
+                    break;
+                }
                 {
 
                 }
@@ -78,3 +103,4 @@ namespace WhoWants20K_Infrastructure.Services
         }
     }
 }
+

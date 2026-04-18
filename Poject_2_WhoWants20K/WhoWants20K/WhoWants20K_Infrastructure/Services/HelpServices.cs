@@ -22,14 +22,18 @@ namespace WhoWants20K_Infrastructure.Services
         {
 
             Console.WriteLine("Remaining helps: ");
-            int i = 0;
+            
             foreach (var help in remainingHelps)
             {
-                if (help.Value)
+                int i = 0;
+                
+                Console.Write($"{i+1}) {help.Key} ");
+                if(help.Value == false)
                 {
-                    Console.WriteLine($"{i + 1}. {help.Key}");
-                    i++;
+                    Console.Write("(used)");
                 }
+                Console.WriteLine();    
+                i++;
             }
 
         }
@@ -126,73 +130,78 @@ namespace WhoWants20K_Infrastructure.Services
         {
             int userChoice;
             usedHelp = "";
-            while (true) 
+            while (true)
             {
+                
                 Console.Write("Which help do you want to use?: ");
-                if (int.TryParse(Console.ReadLine(), out  userChoice))
-                {
-                    if (userChoice >= 1 && userChoice <= 3)
-                    {
-                        break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Please enter a valid number corresponding to the help you want to use.");
-                    }
-                }
-                else
+
+                if (!int.TryParse(Console.ReadLine(), out userChoice))
                 {
                     Console.WriteLine("Invalid input. Please enter a number.");
+                    continue;
                 }
-            }
-            
-            switch (userChoice)
-            {
-                case 1:
-                    if (remainingHelps["50/50"])
-                    {
-                        Question f = useFiftyFiftyHelp(question);
-                        foreach (var answer in f.Answers)
+
+                if (userChoice < 1 || userChoice > 3)
+                {
+                    Console.WriteLine("Please enter a valid number (1-3).");
+                    continue;
+                }
+
+                switch (userChoice)
+                {
+                    case 1:
+                        if (remainingHelps.TryGetValue("50/50", out bool available) && available)
                         {
-                            Console.WriteLine($"{f.Answers.IndexOf(answer) + 1}. {answer.Text}");
+                            Question f = useFiftyFiftyHelp(question);
+                            foreach (var answer in f.Answers)
+                            {
+                                Console.WriteLine($"{f.Answers.IndexOf(answer) + 1}. {answer.Text}");
+                            }
+
+                            remainingHelps["50/50"] = false;
+                            usedHelp = "50/50";
+                            break; 
                         }
-                       remainingHelps.Remove("50/50");
-                        usedHelp = "50/50";
-                    }
-                    else
-                    {
-                        Console.WriteLine("You have already used this help.");
-                    }
-                    break;
-                case 2:
-                    if (remainingHelps["phone a friend"])
-                    {
-                        usePhoneAFriendHelp(question);
-                        remainingHelps.Remove("phone a friend");
-                        usedHelp = "phone a friend";
-                    }
-                    else
-                    {
-                        Console.WriteLine("You have already used this help.");
-                    }
-                    break;
-                case 3:
-                    if (remainingHelps["ask the audience"])
-                    {
-                        useAskTheAudienceHelp(question);
-                        remainingHelps.Remove("ask the audience");
-                        usedHelp = "ask the audience";
-                    }
-                    else
-                    {
-                        Console.WriteLine("You have already used this help.");
-                    }
-                    break;
-                default:
-                    Console.WriteLine("Invalid help type.");
-                        
-                    break;
+                        else
+                        {
+                            Console.WriteLine("You have already used this help.");
+                            continue; 
+                        }
+
+                    case 2:
+                        if (remainingHelps.TryGetValue("phone a friend", out bool available1) && available1)
+                        {
+                            usePhoneAFriendHelp(question);
+                            remainingHelps["phone a friend"] = false;
+                            usedHelp = "phone a friend";
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("You have already used this help.");
+                            continue;
+                        }
+
+                    case 3:
+                        if (remainingHelps.TryGetValue("ask the audience", out bool available2) && available2)
+                        {
+                            useAskTheAudienceHelp(question);
+                            remainingHelps["ask the audience"] = false;
+                            usedHelp = "ask the audience";
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("You have already used this help.");
+                            continue;
+                        }
+                }
+
+                
+                break;
             }
+
+
         }
     }
 }

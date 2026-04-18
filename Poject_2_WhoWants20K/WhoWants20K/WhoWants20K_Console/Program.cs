@@ -14,9 +14,10 @@ namespace WhoWants20K_Console
         {
 
             GameHistoryDataBase gameHistoryDataBase = new GameHistoryDataBase();
-            
+            FeedbackServices feedbackService = new FeedbackServices();
             GameServices gameService = new GameServices();
             UserServices userService = new UserServices();
+            feedbackService.printIntrodactionMessage();
             User user = userService.create();
             gameService.StartGame(user);
             gameHistoryDataBase.SaveGameHistory(user);
