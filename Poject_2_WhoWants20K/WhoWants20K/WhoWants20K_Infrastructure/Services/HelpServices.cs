@@ -37,14 +37,14 @@ namespace WhoWants20K_Infrastructure.Services
             }
 
         }
-        public Question useFiftyFiftyHelp(Question question)
+        public void useFiftyFiftyHelp(Question question)
         {
             byte removedAnswers = 0;
             int removingIndex = random.Next(question.Answers.Count());
             while (removedAnswers < 2)
             {
 
-                if (question.Answers[removingIndex].isCorrect == false)
+                if (question.Answers[removingIndex].IsCorrect == false)
                 {
                     question.Answers.RemoveAt(removingIndex);
                     removedAnswers++;
@@ -53,8 +53,11 @@ namespace WhoWants20K_Infrastructure.Services
                 removingIndex = random.Next(question.Answers.Count());
 
             }
-            return question;
-            
+            foreach (var answer in question.Answers)
+            {
+                Console.WriteLine($"{question.Answers.IndexOf(answer) + 1}. {answer.Text}");
+            }
+
         }
         public void usePhoneAFriendHelp(Question question)
         {
@@ -62,7 +65,7 @@ namespace WhoWants20K_Infrastructure.Services
             int wrongAnswerIndex = random.Next(4);
             for (int i = 0; i < question.Answers.Count(); i++)
             {
-                if (question.Answers[i].isCorrect)
+                if (question.Answers[i].IsCorrect)
                 {
                     correctAnswerIndex = i;
 
@@ -90,7 +93,7 @@ namespace WhoWants20K_Infrastructure.Services
             int correctAnswerIndex = -1;
             for (int i = 0; i < question.Answers.Count(); i++)
             {
-                if (question.Answers[i].isCorrect)
+                if (question.Answers[i].IsCorrect)
                 {
                     correctAnswerIndex = i;
                 }
@@ -130,6 +133,11 @@ namespace WhoWants20K_Infrastructure.Services
         {
             int userChoice;
             usedHelp = "";
+            if (remainingHelps["50/50"] == false && remainingHelps["phone a friend"] == false && remainingHelps["ask the audience"] == false)
+            {
+                Console.WriteLine("You have used all your helps.");
+                return;
+            }
             while (true)
             {
                 
@@ -152,12 +160,7 @@ namespace WhoWants20K_Infrastructure.Services
                     case 1:
                         if (remainingHelps.TryGetValue("50/50", out bool available) && available)
                         {
-                            Question f = useFiftyFiftyHelp(question);
-                            foreach (var answer in f.Answers)
-                            {
-                                Console.WriteLine($"{f.Answers.IndexOf(answer) + 1}. {answer.Text}");
-                            }
-
+                            useFiftyFiftyHelp(question);
                             remainingHelps["50/50"] = false;
                             usedHelp = "50/50";
                             break; 

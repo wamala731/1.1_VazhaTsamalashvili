@@ -1,0 +1,70 @@
+--------------------------------------------------
+21/04/2026 16:16:16 - Start Game: - Player: 
+Question 1: Which planet is often called the Red Planet?
+Chosen Answer: Mars True
+Used Help: 50/50
+Balance: 50 lari
+Question 2: What is the largest organ in the human body?
+Chosen Answer: Skin True
+Balance: 100 lari
+Question 3: What is the square root of 64?
+Chosen Answer: 8 True
+Balance: 250 lari
+Question 4: Which element has the atomic number 1?
+Chosen Answer: Hydrogen True
+Balance: 500 lari
+Question 5: In which year did Napoleon crown himself Emperor of France?
+Chosen Answer: 1804 True
+Balance: 1,000 lari
+Question 6: What is the capital city of France?
+Chosen Answer: Paris True
+Balance: 2,500 lari
+Question 7: What is the hardest natural substance on Earth?
+Chosen Answer: Diamond True
+Balance: 5,000 lari
+Question 8: Which is the longest river in the world?
+Chosen Answer: Nile True
+Balance: 10,000 lari
+Question 9: What is the tallest mountain in the world?
+Chosen Answer: Mount Everest True
+Balance: 15,000 lari
+Question 10: Who is considered the all-time top goal scorer in football?
+Chosen Answer: Cristiano Ronaldo True
+Balance: 20,000 lari
+Final Balance: 20,000 lari
+End of Game: 21/04/2026 16:18:39
+--------------------------------------------------
+--------------------------------------------------
+21/04/2026 16:20:42 - Start Game: - Player: vazha
+Question 1: What is the smallest prime number?
+Chosen Answer: 1 False
+Final Balance: 50 lari
+End of Game: 21/04/2026 16:20:47
+--------------------------------------------------
+--------------------------------------------------
+21/04/2026 16:20:54 - Start Game: - Player: vazha
+Question 1: Who painted the Mona Lisa?
+Chosen Answer: Leonardo da Vinci True
+Balance: 50 lari
+Question 2: What is the fastest land animal?
+Chosen Answer: Cheetah True
+Balance: 100 lari
+Question 3: What is the chemical symbol for gold?
+Chosen Answer: Ag False
+Final Balance: 250 lari
+End of Game: 21/04/2026 16:21:08
+--------------------------------------------------
+--------------------------------------------------
+21/04/2026 16:55:07 - Start Game: - Player: 
+Question 1: Which country won the FIFA World Cup in 2018?
+Chosen Answer: Brazil False
+Final Balance: 50 lari
+End of Game: 21/04/2026 16:55:09
+--------------------------------------------------
+--------------------------------------------------
+21/04/2026 16:58:37 - Start Game: - Player: 
+Question 1: What does H2O represent?
+Chosen Answer: Hydrogen False
+Final Balance: 50 lari
+End of Game: 21/04/2026 16:58:38
+--------------------------------------------------

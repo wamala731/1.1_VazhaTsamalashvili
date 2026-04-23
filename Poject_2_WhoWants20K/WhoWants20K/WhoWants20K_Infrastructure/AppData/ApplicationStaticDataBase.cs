@@ -42,6 +42,10 @@ namespace WhoWants20K_Infrastructure.AppData
                 }
                 questionList.Add(q);
             }
+            //foreach (Question q in questionList)
+            //{
+            //    q.Answers.Shuffle();
+            //}
             return questionList;
         }
     }

@@ -1,0 +1,36 @@
+--------------------------------------------------
+23/04/2026 15:54:28 - Start Game: - Player: vazha
+Question 1: Which is the largest ocean on Earth?
+Chosen Answer: Arctic Ocean False
+Final Balance: 50 lari
+End of Game: 23/04/2026 15:54:33
+--------------------------------------------------
+--------------------------------------------------
+23/04/2026 15:54:40 - Start Game: - Player: vazja
+Question 1: Which gas is commonly used to fill balloons so they float?
+Chosen Answer: Helium True
+Balance: 50 lari
+Question 2: Which country hosted the 2016 Summer Olympics?
+Chosen Answer: China False
+Final Balance: 50 lari
+End of Game: 23/04/2026 15:54:55
+--------------------------------------------------
+--------------------------------------------------
+23/04/2026 15:55:57 - Start Game: - Player: vazha
+Question 1: What is the square root of 64?
+Chosen Answer: 8 True
+Balance: 50 lari
+Question 2: Which musical instrument has black and white keys?
+Chosen Answer: Piano True
+Balance: 100 lari
+Question 3: What does H2O represent?
+Chosen Answer: Water True
+Balance: 250 lari
+Question 4: Which planet is often called the Red Planet?
+Chosen Answer: Mars True
+Balance: 500 lari
+Question 5: Which is the largest ocean on Earth?
+Chosen Answer: Arctic Ocean False
+Final Balance: 50 lari
+End of Game: 23/04/2026 15:56:11
+--------------------------------------------------

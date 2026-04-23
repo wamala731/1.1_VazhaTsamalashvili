@@ -24,29 +24,27 @@ namespace WhoWants20K_Infrastructure.AppData
         };
         public void SaveGameHistory(User user)
         {
-            string fileName = $"{DateTime.Now:ddMMyyyy}_GameHistory.txt";
+            string fileName = $@"../../../../WhoWants20K_Data/{DateTime.Now:ddMMyyyy}_GameHistory.txt";
    
-            StringBuilder filePath = new StringBuilder();
-            filePath.Append(@"../../../../WhoWants20K_Data/");
-            filePath.Append(fileName);
-            using(StreamWriter writer = new StreamWriter(filePath.ToString(), true))
+            
+            using(StreamWriter writer = new StreamWriter(fileName, true))
             {
                 writer.WriteLine("--------------------------------------------------");
-                writer.WriteLine(user.CreatedAt.ToString("dd/MM/yyyy HH:mm:ss") + " - Start Game: - Player: " + (user.Name ?? user.NickName) );
+                writer.WriteLine(user.CreatedAt.ToString("dd/MM/yyyy HH:mm:ss") + " - Start Game: - Player: " + (user.Name != null ? user.Name: user.NickName) );
                 for (int i = 0; i < user.AnsweredQuestions.Count; i++) {
                     writer.WriteLine($"Question {i + 1}: {user.AnsweredQuestions[i].Text}");
-                    writer.WriteLine($"Chosen Answer: {user.ChoosenAnswers[i].Text} " + user.ChoosenAnswers[i].isCorrect);
+                    writer.WriteLine($"Chosen Answer: {user.ChoosenAnswers[i].Text} " + user.ChoosenAnswers[i].IsCorrect);
                     if(user.usedHelps[i, 0] != null)
                     {
                         writer.WriteLine($"Used Help: {user.usedHelps[i, 0]}");
                     }
-                    if (user.ChoosenAnswers[i].isCorrect)
+                    if (user.ChoosenAnswers[i].IsCorrect)
                     {
                         writer.WriteLine($"Balance: {rewards[i]}");
                     }
                     
                 }
-                writer.WriteLine("Final Balance: " + rewards[user.AnsweredQuestions.Count - 1]);
+                writer.WriteLine("Final Balance: " + rewards[user.Balance]);
                 writer.WriteLine("End of Game: " + DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
 
                 writer.WriteLine("--------------------------------------------------");

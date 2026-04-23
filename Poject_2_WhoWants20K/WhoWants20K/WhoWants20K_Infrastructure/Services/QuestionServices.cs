@@ -30,7 +30,7 @@ namespace WhoWants20K_Infrastructure.Services
 
         public bool answerQuestion(Question question, int userInput)
         {
-            if(question.Answers[userInput - 1].isCorrect)
+            if(question.Answers[userInput - 1].IsCorrect)
             {
                 return true;
             }

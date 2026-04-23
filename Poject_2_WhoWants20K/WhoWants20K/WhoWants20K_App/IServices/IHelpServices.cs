@@ -8,7 +8,7 @@ namespace WhoWants20K_Application.IServices
     public interface IHelpServices
     {
         public void returnRemainingHelps();
-        public Question useFiftyFiftyHelp(Question question);
+        public void useFiftyFiftyHelp(Question question);
         public void usePhoneAFriendHelp(Question question);
         public void useAskTheAudienceHelp(Question question);
         public void useHelp(Question question, out string usedHelp);

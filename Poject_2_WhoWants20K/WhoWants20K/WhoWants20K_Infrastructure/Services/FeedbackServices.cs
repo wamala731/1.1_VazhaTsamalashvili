@@ -9,16 +9,16 @@ namespace WhoWants20K_Infrastructure.Services
     {
         public List<string> rewards = new List<string>
          {
-            "50 lari",
-            "100 lari",
-            "250 lari",
-            "500 lari",
-            "1,000 lari",
-            "2,500 lari",
-            "5,000 lari",
-            "10,000 lari",
-            "15,000 lari",
-            "20,000 lari"
+            "50 ₾",
+            "100 ₾",
+            "250 ₾",
+            "500 ₾",
+            "1,000 ₾",
+            "2,500 ₾",
+            "5,000 ₾",
+            "10,000 ₾",
+            "15,000 ₾",
+            "20,000 ₾"
         };
         Random rnd = new Random();
         public void printGameOverMessage()

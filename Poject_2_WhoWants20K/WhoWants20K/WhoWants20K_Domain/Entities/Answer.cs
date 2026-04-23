@@ -7,7 +7,7 @@ namespace WhoWants20K_Domain.Entities
     public class Answer : BaseClass
     {
         public string Text { get; set; }
-        public bool isCorrect { get; set; }
+        public bool IsCorrect { get; set; }
        
     }
 }

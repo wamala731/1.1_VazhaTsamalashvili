@@ -14,13 +14,13 @@ namespace WhoWants20K_Infrastructure.Services
             {
                 Id = id,
                 Text = text,
-                isCorrect = isCorrect
+                IsCorrect = isCorrect
             };
             return answer;
         }
         public bool checkAnswer(Answer answer)
         {
-            return answer.isCorrect;
+            return answer.IsCorrect;
         }
        
         
