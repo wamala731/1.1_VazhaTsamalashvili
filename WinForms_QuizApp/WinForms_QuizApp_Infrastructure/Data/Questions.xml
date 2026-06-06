@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Question>
+		<Id>1</Id>
+		<CreatedAt>2026-06-06T12:00:00</CreatedAt>
+		<QuestionText>What does CPU stand for?</QuestionText>
+		<AnswersTexts>
+			<Answer>Central Process Unit</Answer>
+			<Answer>Central Processing Unit</Answer>
+			<Answer>Computer Personal Unit</Answer>
+			<Answer>Central Processor Unifier</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+
+	</Question>
+
+	<Question>
+		<Id>2</Id>
+		<CreatedAt>2026-06-06T12:05:00</CreatedAt>
+		<QuestionText>Which programming language is mainly used for Windows Forms apps?</QuestionText>
+		<AnswersTexts>
+			<Answer>Python</Answer>
+			<Answer>Java</Answer>
+			<Answer>C#</Answer>
+			<Answer>JavaScript</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	
+	</Question>
+
+	<Question>
+		<Id>3</Id>
+		<CreatedAt>2026-06-06T12:10:00</CreatedAt>
+		<QuestionText>What type of collection is "AnswersTexts" in your C# code?</QuestionText>
+		<AnswersTexts>
+			<Answer>Array</Answer>
+			<Answer>Dictionary</Answer>
+			<Answer>HashSet</Answer>
+			<Answer>List</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>3</CorrectAnswerIndex>
+		
+	</Question>
+	<Question>
+		<Id>4</Id>
+		<CreatedAt>2026-06-06T21:00:00</CreatedAt>
+		<QuestionText>Which ocean is the largest and deepest on Earth?</QuestionText>
+		<AnswersTexts>
+			<Answer>Atlantic Ocean</Answer>
+			<Answer>Indian Ocean</Answer>
+			<Answer>Pacific Ocean</Answer>
+			<Answer>Arctic Ocean</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>5</Id>
+		<CreatedAt>2026-06-06T21:02:00</CreatedAt>
+		<QuestionText>What is the capital city of Australia?</QuestionText>
+		<AnswersTexts>
+			<Answer>Sydney</Answer>
+			<Answer>Melbourne</Answer>
+			<Answer>Brisbane</Answer>
+			<Answer>Canberra</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>3</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>6</Id>
+		<CreatedAt>2026-06-06T21:05:00</CreatedAt>
+		<QuestionText>What is the chemical symbol for the element Gold?</QuestionText>
+		<AnswersTexts>
+			<Answer>Gd</Answer>
+			<Answer>Au</Answer>
+			<Answer>Ag</Answer>
+			<Answer>Fe</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>7</Id>
+		<CreatedAt>2026-06-06T21:08:00</CreatedAt>
+		<QuestionText>Approximately how long does it take for light from the Sun to reach Earth?</QuestionText>
+		<AnswersTexts>
+			<Answer>8 seconds</Answer>
+			<Answer>8 minutes</Answer>
+			<Answer>8 hours</Answer>
+			<Answer>8 days</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>8</Id>
+		<CreatedAt>2026-06-06T21:10:00</CreatedAt>
+		<QuestionText>In which year did the Titanic sink in the Atlantic Ocean?</QuestionText>
+		<AnswersTexts>
+			<Answer>1912</Answer>
+			<Answer>1905</Answer>
+			<Answer>1920</Answer>
+			<Answer>1898</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>0</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>9</Id>
+		<CreatedAt>2026-06-06T21:12:00</CreatedAt>
+		<QuestionText>Who was the first President of the United States?</QuestionText>
+		<AnswersTexts>
+			<Answer>Thomas Jefferson</Answer>
+			<Answer>Abraham Lincoln</Answer>
+			<Answer>George Washington</Answer>
+			<Answer>John Adams</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>10</Id>
+		<CreatedAt>2026-06-06T21:15:00</CreatedAt>
+		<QuestionText>Which famous artist painted the "Mona Lisa"?</QuestionText>
+		<AnswersTexts>
+			<Answer>Vincent van Gogh</Answer>
+			<Answer>Leonardo da Vinci</Answer>
+			<Answer>Pablo Picasso</Answer>
+			<Answer>Michelangelo</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>11</Id>
+		<CreatedAt>2026-06-06T21:18:00</CreatedAt>
+		<QuestionText>How many books make up the original Harry Potter series written by J.K. Rowling?</QuestionText>
+		<AnswersTexts>
+			<Answer>5</Answer>
+			<Answer>6</Answer>
+			<Answer>7</Answer>
+			<Answer>8</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+	<Question>
+		<Id>12</Id>
+		<CreatedAt>2026-06-06T21:20:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which planet is known as the Red Planet?</QuestionText>
+		<AnswersTexts>
+			<Answer>Venus</Answer>
+			<Answer>Mars</Answer>
+			<Answer>Mercury</Answer>
+			<Answer>Jupiter</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>13</Id>
+		<CreatedAt>2026-06-06T21:22:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>What is the square root of 64?</QuestionText>
+		<AnswersTexts>
+			<Answer>6</Answer>
+			<Answer>7</Answer>
+			<Answer>8</Answer>
+			<Answer>9</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>14</Id>
+		<CreatedAt>2026-06-06T21:24:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which continent is the Sahara Desert located on?</QuestionText>
+		<AnswersTexts>
+			<Answer>Asia</Answer>
+			<Answer>South America</Answer>
+			<Answer>Africa</Answer>
+			<Answer>Australia</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>15</Id>
+		<CreatedAt>2026-06-06T21:26:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>What is the largest mammal in the world?</QuestionText>
+		<AnswersTexts>
+			<Answer>Elephant</Answer>
+			<Answer>Blue Whale</Answer>
+			<Answer>Giraffe</Answer>
+			<Answer>Hippopotamus</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>16</Id>
+		<CreatedAt>2026-06-06T21:28:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which gas do plants absorb from the atmosphere?</QuestionText>
+		<AnswersTexts>
+			<Answer>Oxygen</Answer>
+			<Answer>Hydrogen</Answer>
+			<Answer>Carbon Dioxide</Answer>
+			<Answer>Nitrogen</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>17</Id>
+		<CreatedAt>2026-06-06T21:30:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>How many days are there in a leap year?</QuestionText>
+		<AnswersTexts>
+			<Answer>364</Answer>
+			<Answer>365</Answer>
+			<Answer>366</Answer>
+			<Answer>367</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>18</Id>
+		<CreatedAt>2026-06-06T21:32:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which instrument typically has 88 keys?</QuestionText>
+		<AnswersTexts>
+			<Answer>Guitar</Answer>
+			<Answer>Violin</Answer>
+			<Answer>Piano</Answer>
+			<Answer>Trumpet</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>19</Id>
+		<CreatedAt>2026-06-06T21:34:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>What is the hardest natural substance on Earth?</QuestionText>
+		<AnswersTexts>
+			<Answer>Iron</Answer>
+			<Answer>Diamond</Answer>
+			<Answer>Quartz</Answer>
+			<Answer>Granite</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>24</Id>
+		<CreatedAt>2026-06-06T21:36:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which blood type is known as the universal donor?</QuestionText>
+		<AnswersTexts>
+			<Answer>AB+</Answer>
+			<Answer>O+</Answer>
+			<Answer>O-</Answer>
+			<Answer>A-</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>25</Id>
+		<CreatedAt>2026-06-06T21:38:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which country is famous for the pyramids of Giza?</QuestionText>
+		<AnswersTexts>
+			<Answer>Greece</Answer>
+			<Answer>Egypt</Answer>
+			<Answer>Mexico</Answer>
+			<Answer>India</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>26</Id>
+		<CreatedAt>2026-06-06T21:40:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>What is the main language spoken in Brazil?</QuestionText>
+		<AnswersTexts>
+			<Answer>Spanish</Answer>
+			<Answer>English</Answer>
+			<Answer>Portuguese</Answer>
+			<Answer>French</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>27</Id>
+		<CreatedAt>2026-06-06T21:42:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>How many sides does a hexagon have?</QuestionText>
+		<AnswersTexts>
+			<Answer>5</Answer>
+			<Answer>6</Answer>
+			<Answer>7</Answer>
+			<Answer>8</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>28</Id>
+		<CreatedAt>2026-06-06T21:44:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which organ pumps blood throughout the human body?</QuestionText>
+		<AnswersTexts>
+			<Answer>Lungs</Answer>
+			<Answer>Liver</Answer>
+			<Answer>Heart</Answer>
+			<Answer>Kidneys</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>2</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>29</Id>
+		<CreatedAt>2026-06-06T21:46:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>What is the freezing point of water in Celsius?</QuestionText>
+		<AnswersTexts>
+			<Answer>0</Answer>
+			<Answer>32</Answer>
+			<Answer>100</Answer>
+			<Answer>-10</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>0</CorrectAnswerIndex>
+	</Question>
+
+	<Question>
+		<Id>30</Id>
+		<CreatedAt>2026-06-06T21:48:00</CreatedAt>
+		<LastUpdatedAt xsi:nil="true"/>
+		<DeletedAt xsi:nil="true"/>
+		<QuestionText>Which famous scientist developed the theory of relativity?</QuestionText>
+		<AnswersTexts>
+			<Answer>Isaac Newton</Answer>
+			<Answer>Albert Einstein</Answer>
+			<Answer>Nikola Tesla</Answer>
+			<Answer>Galileo Galilei</Answer>
+		</AnswersTexts>
+		<CorrectAnswerIndex>1</CorrectAnswerIndex>
+	</Question>
+</Questions>

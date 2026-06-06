@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ClassLibrary1/WinForms_QuizApp_Domain.csproj" Id="fe3c9652-a466-46fe-b41a-498d4ee5d283" />
+  <Project Path="WinForms_QuizApp/WinForms_QuizApp.csproj" />
+  <Project Path="WinForms_QuizApp_Application/WinForms_QuizApp_Application.csproj" Id="d65297e9-4a33-4145-8ec3-91bb0c7a2358" />
+  <Project Path="WinForms_QuizApp_Infrastructure/WinForms_QuizApp_Infrastructure.csproj" Id="fe9a7184-5f58-43e3-a005-e7a1c505cea3" />
+</Solution>

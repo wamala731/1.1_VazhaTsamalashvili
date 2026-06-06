@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Players xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Player>
+    <Id>1</Id>
+    <CreatedAt>2026-06-06T22:33:17.8291881+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>john_doe42</Username>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <Email>john.doe@example.com</Email>
+    <Password>john123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>2</Id>
+    <CreatedAt>2026-06-06T22:33:17.8293142+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>jane_smith41</Username>
+    <FirstName>Jane</FirstName>
+    <LastName>Smith</LastName>
+    <Email>jane.smith@example.com</Email>
+    <Password>jane123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>3</Id>
+    <CreatedAt>2026-06-06T22:33:17.8293147+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>alice_johnson35</Username>
+    <FirstName>Alice</FirstName>
+    <LastName>Johnson</LastName>
+    <Email>alice.johnson@example.com</Email>
+    <Password>alice123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>4</Id>
+    <CreatedAt>2025-01-15T09:23:45</CreatedAt>
+    <LastUpdatedAt>2025-05-10T14:12:33</LastUpdatedAt>
+    <DeletedAt>0001-01-01T00:00:00</DeletedAt>
+    <FirstName>Liam</FirstName>
+    <LastName>Walker</LastName>
+    <Email>liam.walker@example.com</Email>
+    <Password>liam123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>5</Id>
+    <CreatedAt>2024-11-08T11:45:21</CreatedAt>
+    <LastUpdatedAt>2025-04-17T16:03:55</LastUpdatedAt>
+    <DeletedAt>0001-01-01T00:00:00</DeletedAt>
+    <FirstName>Emma</FirstName>
+    <LastName>Carter</LastName>
+    <Email>emma.carter@example.com</Email>
+    <Password>emma123</Password>
+    <IsAdmin>true</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>6</Id>
+    <CreatedAt>2025-02-21T08:17:12</CreatedAt>
+    <LastUpdatedAt>2025-05-28T10:41:19</LastUpdatedAt>
+    <DeletedAt>0001-01-01T00:00:00</DeletedAt>
+    <FirstName>Noah</FirstName>
+    <LastName>Bennett</LastName>
+    <Email>noah.bennett@example.com</Email>
+    <Password>noah123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>7</Id>
+    <CreatedAt>2024-12-03T13:28:54</CreatedAt>
+    <LastUpdatedAt>2025-03-14T09:55:42</LastUpdatedAt>
+    <DeletedAt>0001-01-01T00:00:00</DeletedAt>
+    <FirstName>Ava</FirstName>
+    <LastName>Reed</LastName>
+    <Email>ava.reed@example.com</Email>
+    <Password>ava123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>8</Id>
+    <CreatedAt>2024-10-19T15:36:08</CreatedAt>
+    <LastUpdatedAt>2025-05-01T12:24:16</LastUpdatedAt>
+    <DeletedAt>0001-01-01T00:00:00</DeletedAt>
+    <FirstName>Ethan</FirstName>
+    <LastName>Foster</LastName>
+    <Email>ethan.foster@example.com</Email>
+    <Password>ethan123</Password>
+    <IsAdmin>true</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>9</Id>
+    <CreatedAt>2025-03-07T07:49:31</CreatedAt>
+    <LastUpdatedAt>2025-05-25T18:22:40</LastUpdatedAt>
+    <DeletedAt>0001-01-01T00:00:00</DeletedAt>
+    <FirstName>Mia</FirstName>
+    <LastName>Hayes</LastName>
+    <Email>mia.hayes@example.com</Email>
+    <Password>mia123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>10</Id>
+    <CreatedAt>2024-09-27T10:14:58</CreatedAt>
+    <LastUpdatedAt>2025-04-08T11:37:25</LastUpdatedAt>
+    <DeletedAt>0001-01-01T00:00:00</DeletedAt>
+    <FirstName>Lucas</FirstName>
+    <LastName>Price</LastName>
+    <Email>lucas.price@example.com</Email>
+    <Password>lucas123</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>14</Id>
+    <CreatedAt>2026-06-05T17:03:41.656233+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>gdsgsdg</Username>
+    <FirstName>sdgsdgsd</FirstName>
+    <LastName>gsdgsdgsd</LastName>
+    <Email>sdgsdgsdgsdgsdgsdgsdg</Email>
+    <Password>sdsdgsdgsd</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>1000</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>12</Id>
+    <CreatedAt>2026-06-05T17:37:09.7044827+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>12341234</Username>
+    <FirstName>12341234</FirstName>
+    <LastName>12341234</LastName>
+    <Email>12341234</Email>
+    <Password>12341234</Password>
+    <IsAdmin>true</IsAdmin>
+    <prize>20000</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>13</Id>
+    <CreatedAt>2026-06-05T17:43:47.5015469+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>123412344</Username>
+    <FirstName>12341</FirstName>
+    <LastName>34124</LastName>
+    <Email>12412412</Email>
+    <Password>123412344</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>15</Id>
+    <CreatedAt>2026-06-06T21:37:39.3139144+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>214</Username>
+    <FirstName>124412</FirstName>
+    <LastName>12412412412</LastName>
+    <Email>412412</Email>
+    <Password>412412412</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>1000</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>16</Id>
+    <CreatedAt>2026-06-06T21:38:13.768688+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>12412412412</Username>
+    <FirstName>124124124</FirstName>
+    <LastName>412412412</LastName>
+    <Email>4214124</Email>
+    <Password>1244124124</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>500</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>17</Id>
+    <CreatedAt>2026-06-06T21:39:02.649694+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>wamala731</Username>
+    <FirstName>wqrwqq</FirstName>
+    <LastName>rqwrqwqwr</LastName>
+    <Email>rqwrqwr</Email>
+    <Password>Wamala1234</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>5000</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>18</Id>
+    <CreatedAt>2026-06-06T22:05:02.3334122+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>dhdhdfh</Username>
+    <FirstName>dfhdfh</FirstName>
+    <LastName>fhdh</LastName>
+    <Email>dfhdfh</Email>
+    <Password>dfhdfhdf</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>19</Id>
+    <CreatedAt>2026-06-06T22:17:37.2592013+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>dsgsdgsd</Username>
+    <FirstName>gsdgsdg</FirstName>
+    <LastName>gsdgsdgsd</LastName>
+    <Email>gsdgsdg</Email>
+    <Password>gsdgsdgsd</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>20</Id>
+    <CreatedAt>2026-06-06T22:17:58.9703152+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>325235235</Username>
+    <FirstName>235235</FirstName>
+    <LastName>325235235</LastName>
+    <Email>235235235</Email>
+    <Password>235235235</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>21</Id>
+    <CreatedAt>2026-06-06T22:18:23.2952516+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>23523523523</Username>
+    <FirstName>23523523523</FirstName>
+    <LastName>3253252</LastName>
+    <Email>523523523</Email>
+    <Password>523523452353</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>0</prize>
+    <IsWinner>false</IsWinner>
+  </Player>
+  <Player>
+    <Id>22</Id>
+    <CreatedAt>2026-06-06T22:19:05.1693848+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>2523535235</Username>
+    <FirstName>23523523</FirstName>
+    <LastName>235235235</LastName>
+    <Email>523523523</Email>
+    <Password>523523523</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>15000</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+  <Player>
+    <Id>23</Id>
+    <CreatedAt>2026-06-06T22:32:09.094093+04:00</CreatedAt>
+    <LastUpdatedAt xsi:nil="true" />
+    <DeletedAt xsi:nil="true" />
+    <Username>6436346</Username>
+    <FirstName>36346346</FirstName>
+    <LastName>346346</LastName>
+    <Email>634634634</Email>
+    <Password>34634634</Password>
+    <IsAdmin>false</IsAdmin>
+    <prize>20000</prize>
+    <IsWinner>true</IsWinner>
+  </Player>
+</Players>
